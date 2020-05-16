@@ -1,6 +1,6 @@
 Feature: As a user i need to search in youtube to find a video
 
-  @Smoke
+  @Ignore
   Scenario Outline: The client search a video
     Given The client is in youtube page
     When The client search for <video>
@@ -9,3 +9,4 @@ Feature: As a user i need to search in youtube to find a video
       |video|
       |java |
       |crowdar|
+      |automation|
